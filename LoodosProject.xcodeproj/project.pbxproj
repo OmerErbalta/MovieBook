@@ -14,6 +14,19 @@
 		5C5738AF2BF6A0F800A52B97 /* LoodosProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5738AE2BF6A0F800A52B97 /* LoodosProjectTests.swift */; };
 		5C5738B92BF6A0F800A52B97 /* LoodosProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5738B82BF6A0F800A52B97 /* LoodosProjectUITests.swift */; };
 		5C5738BB2BF6A0F800A52B97 /* LoodosProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5738BA2BF6A0F800A52B97 /* LoodosProjectUITestsLaunchTests.swift */; };
+		5C5738CE2BF6A86500A52B97 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5738CD2BF6A86500A52B97 /* Movie.swift */; };
+		5C5738D12BF6B33D00A52B97 /* AnimatedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5738D02BF6B33D00A52B97 /* AnimatedText.swift */; };
+		5C5738D42BF6BEEC00A52B97 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5738D32BF6BEEC00A52B97 /* SplashView.swift */; };
+		5C5738D62BF6BF8E00A52B97 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5738D52BF6BF8E00A52B97 /* Constants.swift */; };
+		5C5738D82BF6D76900A52B97 /* Extencion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5738D72BF6D76900A52B97 /* Extencion.swift */; };
+		5C5738DA2BF6DE9400A52B97 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5738D92BF6DE9400A52B97 /* NetworkManager.swift */; };
+		5C5738DC2BF6DFE700A52B97 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5738DB2BF6DFE700A52B97 /* CustomAlert.swift */; };
+		5C5738DF2BF704FB00A52B97 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 5C5738DE2BF704FB00A52B97 /* FirebaseRemoteConfig */; };
+		5C5738E12BF705EB00A52B97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C5738E02BF705EB00A52B97 /* GoogleService-Info.plist */; };
+		5C5738E42BF70B9300A52B97 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5C5738E32BF70B9300A52B97 /* FirebaseRemoteConfigSwift */; };
+		5C5738E72BF7116400A52B97 /* RemoteConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5738E62BF7116400A52B97 /* RemoteConfigManager.swift */; };
+		5C5738E92BF7123600A52B97 /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C5738E82BF7123600A52B97 /* RemoteConfigDefaults.plist */; };
+		5C5738EE2BF713B200A52B97 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5738ED2BF713B200A52B97 /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,17 @@
 		5C5738B42BF6A0F800A52B97 /* LoodosProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoodosProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5738B82BF6A0F800A52B97 /* LoodosProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoodosProjectUITests.swift; sourceTree = "<group>"; };
 		5C5738BA2BF6A0F800A52B97 /* LoodosProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoodosProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C5738CD2BF6A86500A52B97 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		5C5738D02BF6B33D00A52B97 /* AnimatedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedText.swift; sourceTree = "<group>"; };
+		5C5738D32BF6BEEC00A52B97 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		5C5738D52BF6BF8E00A52B97 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5C5738D72BF6D76900A52B97 /* Extencion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extencion.swift; sourceTree = "<group>"; };
+		5C5738D92BF6DE9400A52B97 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5C5738DB2BF6DFE700A52B97 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		5C5738E02BF705EB00A52B97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5C5738E62BF7116400A52B97 /* RemoteConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigManager.swift; sourceTree = "<group>"; };
+		5C5738E82BF7123600A52B97 /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
+		5C5738ED2BF713B200A52B97 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5738DF2BF704FB00A52B97 /* FirebaseRemoteConfig in Frameworks */,
+				5C5738E42BF70B9300A52B97 /* FirebaseRemoteConfigSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +104,7 @@
 				5C5738AD2BF6A0F800A52B97 /* LoodosProjectTests */,
 				5C5738B72BF6A0F800A52B97 /* LoodosProjectUITests */,
 				5C57389B2BF6A0F700A52B97 /* Products */,
+				5C5738E22BF70B9300A52B97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +121,12 @@
 		5C57389C2BF6A0F700A52B97 /* LoodosProject */ = {
 			isa = PBXGroup;
 			children = (
-				5C57389D2BF6A0F700A52B97 /* LoodosProjectApp.swift */,
-				5C57389F2BF6A0F700A52B97 /* ContentView.swift */,
-				5C5738A12BF6A0F800A52B97 /* Assets.xcassets */,
+				5C5738E02BF705EB00A52B97 /* GoogleService-Info.plist */,
+				5C5738CA2BF6A15C00A52B97 /* Support */,
+				5C5738CC2BF6A17A00A52B97 /* Extentions */,
+				5C5738CB2BF6A16700A52B97 /* Core */,
+				5C5738C92BF6A15700A52B97 /* Service */,
+				5C5738C72BF6A14800A52B97 /* Model */,
 				5C5738A32BF6A0F800A52B97 /* Preview Content */,
 			);
 			path = LoodosProject;
@@ -127,6 +157,85 @@
 			path = LoodosProjectUITests;
 			sourceTree = "<group>";
 		};
+		5C5738C72BF6A14800A52B97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C5738CD2BF6A86500A52B97 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C5738C92BF6A15700A52B97 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5C5738CA2BF6A15C00A52B97 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				5C57389D2BF6A0F700A52B97 /* LoodosProjectApp.swift */,
+				5C5738E62BF7116400A52B97 /* RemoteConfigManager.swift */,
+				5C5738A12BF6A0F800A52B97 /* Assets.xcassets */,
+				5C57389F2BF6A0F700A52B97 /* ContentView.swift */,
+				5C5738D52BF6BF8E00A52B97 /* Constants.swift */,
+				5C5738D92BF6DE9400A52B97 /* NetworkManager.swift */,
+				5C5738E82BF7123600A52B97 /* RemoteConfigDefaults.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		5C5738CB2BF6A16700A52B97 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5C5738EC2BF7139F00A52B97 /* HomePage */,
+				5C5738D22BF6BED200A52B97 /* Splash */,
+				5C5738CF2BF6B2FC00A52B97 /* Components */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5C5738CC2BF6A17A00A52B97 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				5C5738D72BF6D76900A52B97 /* Extencion.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		5C5738CF2BF6B2FC00A52B97 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5C5738DB2BF6DFE700A52B97 /* CustomAlert.swift */,
+				5C5738D02BF6B33D00A52B97 /* AnimatedText.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5C5738D22BF6BED200A52B97 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				5C5738D32BF6BEEC00A52B97 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		5C5738E22BF70B9300A52B97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C5738EC2BF7139F00A52B97 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				5C5738ED2BF713B200A52B97 /* HomePage.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +252,10 @@
 			dependencies = (
 			);
 			name = LoodosProject;
+			packageProductDependencies = (
+				5C5738DE2BF704FB00A52B97 /* FirebaseRemoteConfig */,
+				5C5738E32BF70B9300A52B97 /* FirebaseRemoteConfigSwift */,
+			);
 			productName = LoodosProject;
 			productReference = 5C57389A2BF6A0F700A52B97 /* LoodosProject.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +328,9 @@
 				Base,
 			);
 			mainGroup = 5C5738912BF6A0F700A52B97;
+			packageReferences = (
+				5C5738DD2BF704FB00A52B97 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 5C57389B2BF6A0F700A52B97 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +349,8 @@
 			files = (
 				5C5738A52BF6A0F800A52B97 /* Preview Assets.xcassets in Resources */,
 				5C5738A22BF6A0F800A52B97 /* Assets.xcassets in Resources */,
+				5C5738E92BF7123600A52B97 /* RemoteConfigDefaults.plist in Resources */,
+				5C5738E12BF705EB00A52B97 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +376,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C5738A02BF6A0F700A52B97 /* ContentView.swift in Sources */,
+				5C5738EE2BF713B200A52B97 /* HomePage.swift in Sources */,
+				5C5738D12BF6B33D00A52B97 /* AnimatedText.swift in Sources */,
+				5C5738D42BF6BEEC00A52B97 /* SplashView.swift in Sources */,
 				5C57389E2BF6A0F700A52B97 /* LoodosProjectApp.swift in Sources */,
+				5C5738DA2BF6DE9400A52B97 /* NetworkManager.swift in Sources */,
+				5C5738D82BF6D76900A52B97 /* Extencion.swift in Sources */,
+				5C5738CE2BF6A86500A52B97 /* Movie.swift in Sources */,
+				5C5738E72BF7116400A52B97 /* RemoteConfigManager.swift in Sources */,
+				5C5738D62BF6BF8E00A52B97 /* Constants.swift in Sources */,
+				5C5738DC2BF6DFE700A52B97 /* CustomAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +715,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C5738DD2BF704FB00A52B97 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.26.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C5738DE2BF704FB00A52B97 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C5738DD2BF704FB00A52B97 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		5C5738E32BF70B9300A52B97 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C5738DD2BF704FB00A52B97 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5C5738922BF6A0F700A52B97 /* Project object */;
 }
