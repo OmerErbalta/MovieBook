@@ -15,7 +15,6 @@ class RemoteConfigManager: ObservableObject {
         remoteConfig.setDefaults(fromPlist: "RemoteConfigDefaults")
         fetchRemoteConfig()
     }
-    
     func fetchRemoteConfig() {
         remoteConfig.fetchAndActivate { status, error in
             if status == .successFetchedFromRemote || status == .successUsingPreFetchedData {

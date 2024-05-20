@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import SwiftUI
 
 extension UIColor {
     convenience init(hex: String, alpha: CGFloat = 1.0) {
@@ -24,5 +25,19 @@ extension UIColor {
         let blue = CGFloat(rgbValue & 0x0000FF) / 255.0
 
         self.init(red: red, green: green, blue: blue, alpha: alpha)
+    }
+}
+
+extension View {
+    func hideKeyboard() -> some View {
+        return self.gesture(
+                    DragGesture().onChanged { _ in
+                UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+                }
+              
+        ).onTapGesture {
+            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+
+        }       
     }
 }
